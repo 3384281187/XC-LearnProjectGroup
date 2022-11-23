@@ -1,18 +1,19 @@
-第一步:`在有效代码的第一行`，通过import导入Scanner类
+# java-Scanner
+### 第一步:`在有效代码的第一行`，通过import导入Scanner类
 
 ```java
 import java.util.Scanner;
 ```
 
-第二步：通过new关键字实例化一个Scanner对象
+### 第二步：通过new关键字实例化一个Scanner对象
 
 ```java
 Scanner input=new Scanner(System.in);
 ```
 
--->唯一可变的就是**`input`**t变量名！
+-->唯一可变的就是```input```变量名！
 
-第三步：通过Scanner对象来调用Scanner类中的方法，用于获取
+### 第三步：通过Scanner对象来调用Scanner类中的方法，用于获取
 
 用户在控制台输入的内容
 
@@ -26,24 +27,18 @@ byte a=input.nextByte();
 //获取用户在控制台输入的内容，返回数据类型为byta类型！
 short b=input.nextShort();
 //获取用户在控制台输入的内容，返回数据类型为short类型！
-int c=input.nxtInt();
+int c=input.nextInt();
 //获取用户在控制台输入的内容，返回数据类型为ing类型！
-long d=input.nxtLong();
+long d=input.nextLong();
 //获取用户在控制台输入的内容，返回数据类型为Long类型！
 ```
 
 ```java
 //小数型
-float e=input.nxtFloat();
+float e=input.nextFloat();
 //获取用户在控制台输入的内容，返回数据类型为float类型！
-double f=input.nxtDouble();
-//获取用户在控制台输入的内容，返回数据类型为double类型！
-```
-
-```java
-//字符型
-char g=input.nxtChar();
-//获取用户在控制台输入的内容，返回数据类型为char类型！
+double f=input.nextDouble();
+//获取用户在控制台输入的内容，返回数据类型为double类型
 ```
 
 -->当用户输入内容并敲回车是，获取第一个空格之前的内容！
@@ -63,3 +58,4 @@ String i=input.nextLine();
 ```
 
 -->当用户输入内容并敲回车是，获取一整行的内容！
+
